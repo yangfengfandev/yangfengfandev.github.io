@@ -5,29 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>First_post - 杨风帆</title><meta name="Description" content="杨风帆的个人站点"><meta property="og:title" content="First_post" />
-<meta property="og:description" content="没有人在年轻时想成为一个普通人" />
+        <title>CentOS搭建SVN服务器 - 杨风帆</title><meta name="Description" content="杨风帆的个人站点"><meta property="og:title" content="CentOS搭建SVN服务器" />
+<meta property="og:description" content="1.下载Subversion 下载subversion 1 yum install Subversion 确定安装 安装完成后查看SVN版本 1 svnserve --version 现在已经安装成功了。 2. 创建SVN仓库 选择一" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yangfengfan.dev/first_post/" />
-<meta property="article:published_time" content="2020-09-03T00:09:52+08:00" />
-<meta property="article:modified_time" content="2020-09-03T00:09:52+08:00" />
+<meta property="og:url" content="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" />
+<meta property="article:published_time" content="2017-11-27T15:45:27+08:00" />
+<meta property="article:modified_time" content="2017-11-27T15:45:27+08:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="First_post"/>
-<meta name="twitter:description" content="没有人在年轻时想成为一个普通人"/>
+<meta name="twitter:title" content="CentOS搭建SVN服务器"/>
+<meta name="twitter:description" content="1.下载Subversion 下载subversion 1 yum install Subversion 确定安装 安装完成后查看SVN版本 1 svnserve --version 现在已经安装成功了。 2. 创建SVN仓库 选择一"/>
 <meta name="application-name" content="杨风帆">
 <meta name="apple-mobile-web-app-title" content="杨风帆"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yangfengfan.dev/first_post/" /><link rel="prev" href="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" /><link rel="next" href="https://yangfengfan.dev/first_post/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "First_post",
+        "headline": "CentOS搭建SVN服务器",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/yangfengfan.dev\/first_post\/"
-        },"genre": "posts","wordcount":  15 ,
-        "url": "https:\/\/yangfengfan.dev\/first_post\/","datePublished": "2020-09-03T00:09:52+08:00","dateModified": "2020-09-03T00:09:52+08:00","publisher": {
+            "@id": "https:\/\/yangfengfan.dev\/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8\/"
+        },"genre": "posts","wordcount":  1398 ,
+        "url": "https:\/\/yangfengfan.dev\/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8\/","datePublished": "2017-11-27T15:45:27+08:00","dateModified": "2017-11-27T15:45:27+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -101,10 +101,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">First_post</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">CentOS搭建SVN服务器</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://yangfengfan.dev/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>yangfengfan</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-09-03">2020-09-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 15 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/first_post/" class="leancloud_visitors" data-flag-title="First_post">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2017-11-27">2017-11-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1398 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="leancloud_visitors" data-flag-title="CentOS搭建SVN服务器">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -112,20 +112,170 @@
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><p>没有人在年轻时想成为一个普通人</p>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#21-svnserveconf">2.1 svnserve.conf</a></li>
+    <li><a href="#22-passwd">2.2. passwd</a></li>
+    <li><a href="#23-authz">2.3. authz</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#1-单库模式">1. 单库模式</a></li>
+    <li><a href="#2-多库模式">2. 多库模式</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="1下载subversion">1.下载Subversion</h1>
+<p>下载subversion</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">yum install Subversion
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/1.png"
+        data-srcset="/data/img/2017/1.png, /data/img/2017/1.png 1.5x, /data/img/2017/1.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/1.png"
+        title="这里写图片描述" /></p>
+<p>确定安装</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/2.png"
+        data-srcset="/data/img/2017/2.png, /data/img/2017/2.png 1.5x, /data/img/2017/2.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/2.png"
+        title="这里写图片描述" /></p>
+<p>安装完成后查看SVN版本</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">svnserve --version
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/3.png"
+        data-srcset="/data/img/2017/3.png, /data/img/2017/3.png 1.5x, /data/img/2017/3.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/3.png"
+        title="这里写图片描述" /></p>
+<p>现在已经安装成功了。</p>
+<h1 id="2-创建svn仓库">2. 创建SVN仓库</h1>
+<p>选择一个文件夹存放SVN仓库，我这里选择repository文件夹存放我们的SVＮ仓库</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/4.png"
+        data-srcset="/data/img/2017/4.png, /data/img/2017/4.png 1.5x, /data/img/2017/4.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/4.png"
+        title="这里写图片描述" /></p>
+<p>创建一个名为android的仓库</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">svnadmin create android
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/5.png"
+        data-srcset="/data/img/2017/5.png, /data/img/2017/5.png 1.5x, /data/img/2017/5.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/5.png"
+        title="这里写图片描述" /></p>
+<p>这个android文件夹就是我们的SVN仓库了，仓库的配置在conf文件夹下</p>
+<blockquote>
+<ul>
+<li>svnserve.conf　　仓库的配置</li>
+<li>psswd　　设置账号密码</li>
+<li>authz　　设置账号的权限</li>
+</ul>
+</blockquote>
+<h2 id="21-svnserveconf">2.1 svnserve.conf</h2>
+<p>把图中标记的注释(#)去除</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/6.png"
+        data-srcset="/data/img/2017/6.png, /data/img/2017/6.png 1.5x, /data/img/2017/6.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/6.png"
+        title="这里写图片描述" /></p>
+<ul>
+<li>
+<p>anon-access: 控制非鉴权用户访问版本库的权限，取值范围为&quot;write&rdquo;、&ldquo;read&quot;和&quot;none&rdquo;。 即&quot;write&quot;为可读可写，&ldquo;read&quot;为只读，&ldquo;none&quot;表示无访问权限。 默认值：read</p>
+</li>
+<li>
+<p>auth-access: 控制鉴权用户访问版本库的权限。取值范围为&quot;write&rdquo;、&ldquo;read&quot;和&quot;none&rdquo;。 即&quot;write&quot;为可读可写，&ldquo;read&quot;为只读，&ldquo;none&quot;表示无访问权限。 默认值：write</p>
+</li>
+<li>
+<p>authz-db: 指定权限配置文件名，通过该文件可以实现以路径为基础的访问控制。 除非指定绝对路径，否则文件位置为相对conf目录的相对路径。 默认值：authz</p>
+</li>
+<li>
+<p>realm: 指定版本库的认证域，即在登录时提示的认证域名称。若两个版本库的 认证域相同，建议使用相同的用户名口令数据文件。 默认值：一个UUID(Universal Unique IDentifier，全局唯一标示)。</p>
+</li>
+</ul>
+<h2 id="22-passwd">2.2. passwd</h2>
+<p>因为上面配置svnserve.conf是指定的是 <strong>password-db = passwd</strong>所以此passwd文件用来设置用户。
+格式为 <strong>&lt;用户名&gt; = &lt;密码&gt;</strong>
+如图我分配了一个账号为yff密码为123456的用户。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/7.png"
+        data-srcset="/data/img/2017/7.png, /data/img/2017/7.png 1.5x, /data/img/2017/7.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/7.png"
+        title="这里写图片描述" /></p>
+<h2 id="23-authz">2.3. authz</h2>
+<p>因为上面配置svnserve.conf是指定的是 <strong>authz-db = authz</strong>所以此authz文件设置用户。该配置文件由一个[groups]配置段和若干个版本库路径权限段组成。</p>
+<p>[groups]下设置用户组</p>
+<p>[/] 或 [repository:/]等都是仓库的目录，在每个目录下配置该目录的用户权限。<strong>（用户需要在passwd中分配，权限有  ' &lsquo;无访问权限 &lsquo;r&rsquo;读 &lsquo;w&rsquo;写）</strong></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/data/img/2017/8.png"
+        data-srcset="/data/img/2017/8.png, /data/img/2017/8.png 1.5x, /data/img/2017/8.png 2x"
+        data-sizes="auto"
+        alt="/data/img/2017/8.png"
+        title="这里写图片描述" /></p>
+<p>如图yff账户在根目录下有读写的权限</p>
+<h1 id="3启动svn服务">3.启动SVN服务</h1>
+<p>启动命令为  <strong>svnserve -d -r &lt;仓库目录&gt;</strong> 如 svnserve -d -r /home/svn/</p>
+<p>注意：由于启动目录的不同，可分为两种启动模式</p>
+<h2 id="1-单库模式">1. 单库模式</h2>
+<pre><code> 比如我们android仓库的完整路径为/home/svn/android 。如果我们启动命令为svnserve -d -r /home/svn/android这种方式启动，那么svnserve只能这一个android仓库工作，即CentOS的/home/svn/android/目录。我们访问时通过 **svn://ip** 就可以直接连接到android仓库
+</code></pre>
+<h2 id="2-多库模式">2. 多库模式</h2>
+<p>如果启动的时候用的是svnserve -d -r /home/svn，则/home/svn下面的所有仓库都是可以访问的，这时访问android创库则要通过 <strong>svn://ip/android</strong> 如果/home/svn下还有一个web仓库，如/home/svn/web则访问web仓库使用<strong>svn://ip/web</strong></p>
+<p><strong>即启动目录就是我们ip定位到的服务器路径</strong></p>
+<h1 id="4-关闭">4. 关闭</h1>
+<p>如果要关闭SVN使用 <strong>killall svnserve</strong></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-09-03</span>
+                <span>更新于 2017-11-27</span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://yangfengfan.dev/first_post/" data-title="First_post"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://yangfengfan.dev/first_post/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="https://yangfengfan.dev/first_post/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://yangfengfan.dev/first_post/" data-title="First_post"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://yangfengfan.dev/first_post/" data-title="First_post"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" data-title="CentOS搭建SVN服务器"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" data-title="CentOS搭建SVN服务器"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" data-title="CentOS搭建SVN服务器"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -137,7 +287,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="prev" rel="prev" title="CentOS搭建SVN服务器"><i class="fas fa-angle-left fa-fw"></i>CentOS搭建SVN服务器</a></div>
+    <div class="post-nav">
+            <a href="/first_post/" class="next" rel="next" title="First_post">First_post<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.

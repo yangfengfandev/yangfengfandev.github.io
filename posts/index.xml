@@ -11,5 +11,12 @@
     <author>作者</author>
     <guid>https://yangfengfan.dev/first_post/</guid>
     <description><![CDATA[没有人在年轻时想成为一个普通人]]></description>
+</item><item>
+    <title>CentOS搭建SVN服务器</title>
+    <link>https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <pubDate>Mon, 27 Nov 2017 15:45:27 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+    <description><![CDATA[1.下载Subversion 下载subversion 1 yum install Subversion 确定安装 安装完成后查看SVN版本 1 svnserve --version 现在已经安装成功了。 2. 创建SVN仓库 选择一]]></description>
 </item></channel>
 </rss>
