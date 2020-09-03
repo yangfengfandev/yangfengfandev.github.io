@@ -2,8 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/first_post/</loc><lastmod>2020-09-03T00:09:52&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2020-09-03T00:09:52&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2020-09-03T00:09:52&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>https://yangfengfan.dev/about/</loc><lastmod>2020-09-03T23:43:19&#43;08:00</lastmod></url><url>
+            <loc>https://yangfengfan.dev/first_post/</loc><lastmod>2020-09-03T00:09:52&#43;08:00</lastmod></url><url>
+            <loc>https://yangfengfan.dev/posts/</loc><lastmod>2020-09-03T00:09:52&#43;08:00</lastmod></url><url>
+            <loc>https://yangfengfan.dev/</loc><lastmod>2020-09-03T00:09:52&#43;08:00</lastmod></url><url>
+            <loc>https://yangfengfan.dev/categories/</loc></url><url>
+            <loc>https://yangfengfan.dev/tags/</loc></url></urlset>
