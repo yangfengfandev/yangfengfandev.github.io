@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Java - 标签 - 杨风帆</title>
+        <link>https://yangfengfan.dev/tags/java/</link>
+        <description>Java - 标签 - 杨风帆</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (yangfengfan)</managingEditor>
+            <webMaster>yangfengfandev@gmail.com (yangfengfan)</webMaster><lastBuildDate>Tue, 14 May 2019 01:36:00 &#43;0800</lastBuildDate><atom:link href="https://yangfengfan.dev/tags/java/" rel="self" type="application/rss+xml" /><item>
+    <title>Java异常处理</title>
+    <link>https://yangfengfan.dev/java%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8/</link>
+    <pubDate>Tue, 14 May 2019 01:36:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/java%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8/</guid>
+    <description><![CDATA[1、Error Error类是指java运行时系统内部错误和资源耗尽错误。应用程序不会抛出该类对象，如果出现了这样的错误 ，除了告知用户，剩下的]]></description>
+</item></channel>
+</rss>
