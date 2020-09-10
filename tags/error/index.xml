@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Error - 标签 - 杨风帆</title>
+        <link>https://yangfengfan.dev/tags/error/</link>
+        <description>Error - 标签 - 杨风帆</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (杨风帆)</managingEditor>
+            <webMaster>yangfengfandev@gmail.com (杨风帆)</webMaster><lastBuildDate>Thu, 14 Mar 2019 19:01:25 &#43;0800</lastBuildDate><atom:link href="https://yangfengfan.dev/tags/error/" rel="self" type="application/rss+xml" /><item>
+    <title>\u003d乱码</title>
+    <link>https://yangfengfan.dev/u003%E4%B9%B1%E7%A0%81/</link>
+    <pubDate>Thu, 14 Mar 2019 19:01:25 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/u003%E4%B9%B1%E7%A0%81/</guid>
+    <description><![CDATA[1.问题 跟后台交互的时候，发现传过去的数据中有个 \u003d 这是我传的参数 : query=[{property:&ldquo;chengShi.id&rdquo;,operator:&ldquo;=&rdquo;,value:1}] 这是后台接收到的参数： query=[{&ldquo;property&rdquo;:&ldquo;chengShi.id&rdquo;,&ldquo;value&rdquo;:1,&ldquo;operator&rdquo;:&quot;\u003d&rdquo;}] 很明显，是 = 出错了，因为要传的是对象，我把它封装]]></description>
+</item><item>
+    <title>Resource IDs cannot be used in a switch statement in Android library modules</title>
+    <link>https://yangfengfan.dev/resource-ids-cannot-be-used-in-a-switch-statement-in-android-library-modules/</link>
+    <pubDate>Tue, 12 Mar 2019 19:01:25 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/resource-ids-cannot-be-used-in-a-switch-statement-in-android-library-modules/</guid>
+    <description><![CDATA[1.问题 在library module中对监听的控件使用switch控制中，发现会报 Resource IDs cannot be used in a switch statement in Android library modules，翻译过来就是 资源I]]></description>
+</item></channel>
+</rss>

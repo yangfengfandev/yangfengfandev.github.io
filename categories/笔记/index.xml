@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>笔记 - 分类 - 杨风帆</title>
+        <link>https://yangfengfan.dev/categories/%E7%AC%94%E8%AE%B0/</link>
+        <description>笔记 - 分类 - 杨风帆</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (杨风帆)</managingEditor>
+            <webMaster>yangfengfandev@gmail.com (杨风帆)</webMaster><lastBuildDate>Thu, 25 Apr 2019 15:54:19 &#43;0800</lastBuildDate><atom:link href="https://yangfengfan.dev/categories/%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown语法</title>
+    <link>https://yangfengfan.dev/markdown%E8%AF%AD%E6%B3%95/</link>
+    <pubDate>Thu, 25 Apr 2019 15:54:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/markdown%E8%AF%AD%E6%B3%95/</guid>
+    <description><![CDATA[标题 1 2 3 4 5 6 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 效果： 一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 列表 无序列]]></description>
+</item><item>
+    <title>Git笔记</title>
+    <link>https://yangfengfan.dev/git%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Thu, 25 Apr 2019 09:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/git%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[1 版本回退 相对回退 如果要回到上一个版本使用 git reset --hard HEAD^,回到上上一个版本使用 git reset --hard HEAD^^ 一个^表示向前回退一次，如果回退到十次前可以使用 git reset]]></description>
+</item><item>
+    <title>学习笔记</title>
+    <link>https://yangfengfan.dev/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Thu, 25 Apr 2019 09:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[1.Android透明度 Android中的颜色值通常遵循RGB/ARGB标准，使用时通常以“#”字符开头，以16进制表示。常用的颜色值格式为]]></description>
+</item></channel>
+</rss>

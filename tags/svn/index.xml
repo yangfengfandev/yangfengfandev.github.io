@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>svn - 标签 - 杨风帆</title>
+        <link>https://yangfengfan.dev/tags/svn/</link>
+        <description>svn - 标签 - 杨风帆</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (杨风帆)</managingEditor>
+            <webMaster>yangfengfandev@gmail.com (杨风帆)</webMaster><lastBuildDate>Mon, 27 Nov 2017 15:45:19 &#43;0800</lastBuildDate><atom:link href="https://yangfengfan.dev/tags/svn/" rel="self" type="application/rss+xml" /><item>
+    <title>CentOS搭建SVN服务器</title>
+    <link>https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <pubDate>Mon, 27 Nov 2017 15:45:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/centos%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+    <description><![CDATA[1.下载Subversion 下载subversion 1 yum install Subversion 确定安装 安装完成后查看SVN版本 1 svnserve --version 现在已经安装成功了。 2. 创建SVN仓库 选择一]]></description>
+</item></channel>
+</rss>

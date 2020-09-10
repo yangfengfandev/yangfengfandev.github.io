@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>AndroidStudio - 标签 - 杨风帆</title>
+        <link>https://yangfengfan.dev/tags/androidstudio/</link>
+        <description>AndroidStudio - 标签 - 杨风帆</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (杨风帆)</managingEditor>
+            <webMaster>yangfengfandev@gmail.com (杨风帆)</webMaster><lastBuildDate>Tue, 06 Mar 2018 17:43:00 &#43;0800</lastBuildDate><atom:link href="https://yangfengfan.dev/tags/androidstudio/" rel="self" type="application/rss+xml" /><item>
+    <title>Android Studio登录Google账号</title>
+    <link>https://yangfengfan.dev/android-studio%E7%99%BB%E5%BD%95google%E8%B4%A6%E5%8F%B7/</link>
+    <pubDate>Tue, 06 Mar 2018 17:43:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://yangfengfan.dev/android-studio%E7%99%BB%E5%BD%95google%E8%B4%A6%E5%8F%B7/</guid>
+    <description><![CDATA[1.问题 使用Android Studio登陆Google账号时会跳转到浏览器登陆Google账号, 但是网页登录成功后Android Studio]]></description>
+</item></channel>
+</rss>
