@@ -3,8 +3,8 @@
         <title>杨风帆</title>
         <link>https://yangfengfan.dev/</link>
         <description>杨风帆的个人站点</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (yangfengfan)</managingEditor>
-            <webMaster>yangfengfandev@gmail.com (yangfengfan)</webMaster><lastBuildDate>Tue, 14 May 2019 01:36:00 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yangfengfandev@gmail.com (杨风帆)</managingEditor>
+            <webMaster>yangfengfandev@gmail.com (杨风帆)</webMaster><lastBuildDate>Tue, 14 May 2019 01:36:00 &#43;0800</lastBuildDate>
             <atom:link href="https://yangfengfan.dev/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Java异常处理</title>
@@ -33,7 +33,7 @@
     <pubDate>Thu, 25 Apr 2019 09:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://yangfengfan.dev/git%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[时光穿梭机 版本回退 相对回退 如果要回到上一个版本使用 git reset --hard HEAD^,回到上上一个版本使用 git reset --hard HEAD^^ 一个^表示向前回退一次，如果回退到十次前可以]]></description>
+    <description><![CDATA[1 版本回退 相对回退 如果要回到上一个版本使用 git reset --hard HEAD^,回到上上一个版本使用 git reset --hard HEAD^^ 一个^表示向前回退一次，如果回退到十次前可以使用 git reset]]></description>
 </item><item>
     <title>学习笔记</title>
     <link>https://yangfengfan.dev/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
